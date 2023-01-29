@@ -1,0 +1,90 @@
+<html>
+  <head>
+ <meta charset = "UTF-8" name="viewport" content="user-scalable=no, width=device-width"/>
+   <!-- <link rel="icon" href="sys/favicon.ico" />-->
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+      
+      <!-- スタイルシート -->
+              <link rel = "stylesheet" href="css/screen.css">
+            <link rel = "stylesheet" href="css/font.css">
+
+      
+  </head>
+    <body style ="background-color: black; overflow: hidden">
+      
+       <div id = "screen">
+           <div id = "test"></div>
+            <img src = "sys/screen.png">
+        <noscript>
+        <div id = "script_error"><img src = "sys/ScriptError.jpg"></div>
+    </noscript>
+        </div>    
+
+
+         
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+      
+      <!-- JavaScript -->
+        
+<!--<script type="text/javascript" src="/socket.io/socket.io.js"></script>-->
+       
+        
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/audioManager.min.js"></script>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+           <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js" integrity="sha384-/KNQL8Nu5gCHLqwqfQjA689Hhoqgi2S84SNUxC3roTe4EhJ9AfLkp8QiQcU8AMzI" crossorigin="anonymous"></script>
+
+
+<script type ="text/javascript" src="js/variable_base.js"></script>  
+<script type ="text/javascript" src="js/variable.js"></script>
+<script type ="text/javascript" src="js/variable_sound.js"></script>
+<script type ="text/javascript" src="js/div_id.js"></script>
+<script type ="text/javascript" src="js/blackout.js"></script>
+<script type ="text/javascript" src="js/keyboard.js"></script>
+<script type ="text/javascript" src="js/gamepad.js"></script>
+<script type ="text/javascript" src="js/hold_down.js"></script>
+<script type ="text/javascript" src="js/move_cloud.js"></script>
+<script type ="text/javascript" src="js/move_bubble.js"></script>
+<script type ="text/javascript" src="js/move_watage.js"></script>
+<script type ="text/javascript" src="js/move_stars.js"></script>
+<script type ="text/javascript" src="js/act_select.js"></script>
+<script type ="text/javascript" src="js/main.js"></script>
+<script type ="text/javascript" src="js/remove_all.js"></script>
+<script type ="text/javascript" src="sys/resize.js"></script>
+<script type ="text/javascript" src="sys/prohibit.js"></script>
+
+   
+  </body>
+</html>
