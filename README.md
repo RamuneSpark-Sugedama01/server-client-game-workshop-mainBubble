@@ -1,1 +1,1 @@
-Very Special Thanks to Kato Akihiro
+Very Special Thanks to Mr. Kato Akihiro
